@@ -1,0 +1,38 @@
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.img1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 80%;
+    height: 500px;
+}
+
+.box {
+    background-color: aqua;
+    height: 500px;
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:947px) {
+    .image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        background-color: blue;
+        color: white;
+        width: 80%;
+
+    }
+}
